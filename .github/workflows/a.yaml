@@ -4,8 +4,7 @@ on: [push]
 
 jobs:
   build:
-    env: 
-    abc:1
+    env: abc:1
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
